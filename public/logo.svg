@@ -1,0 +1,10 @@
+<svg width="160" height="40" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- "hire" text -->
+  <text x="0" y="30" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5" fill="white">hire</text>
+  <!-- "l" -->
+  <text x="64" y="30" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5" fill="white">l</text>
+  <!-- Infinity/loop symbol for "oo" with purple accent -->
+  <path d="M 82 20 C 82 13, 90 10, 95 15 C 100 20, 100 20, 105 15 C 110 10, 118 13, 118 20 C 118 27, 110 30, 105 25 C 100 20, 100 20, 95 25 C 90 30, 82 27, 82 20 Z" stroke="#7c5cfc" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- "p" text -->
+  <text x="120" y="30" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5" fill="white">p</text>
+</svg>

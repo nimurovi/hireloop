@@ -77,6 +77,8 @@ export default function SignUp() {
         name,
         email,
         password,
+        // Better Auth additional field configured in lib/auth.ts
+        role: selectedRole,
       });
 
       if (authError) {
@@ -85,13 +87,6 @@ export default function SignUp() {
       }
 
       if (data) {
-        // Set the user's role after signup
-        await fetch("/api/user/role", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ role: selectedRole }),
-        });
-
         setSuccess("Account created successfully!");
         setTimeout(() => {
           router.push("/");
